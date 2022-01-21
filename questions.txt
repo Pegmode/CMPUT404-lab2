@@ -16,4 +16,4 @@ Q4:     incoming connection's IP Address is given by the 2nd value
 Q5:     for the client, after sending an HTTP request recv() returns the servers
         response to the HTTP request. (This question is worded slightly strange)
 
-Q6:
+Q6:     https://github.com/Pegmode/CMPUT404-lab2

@@ -1,7 +1,6 @@
 #cmput404W22 dchu lab 2
 #https://uofa-cmput404.github.io/lab-2-tcp-proxy.html
 import socket as soc
-import pdb
 
 
 PORT = 8001
@@ -58,4 +57,4 @@ def main():
     s.close()
 
 if __name__ == "__main__":
-    main()
+    main() 
