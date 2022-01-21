@@ -1,0 +1,19 @@
+Q1:     when creating a socket object, you specify the type in the constructor
+        https://docs.python.org/3/library/socket.html#socket.socket
+        It is listed as "type". SOCK_STREAM specifies TCP, SOCK_DGRAM specifies UDP
+
+Q2:     A client socket has to connect to a particular IP address and port
+        A server socket has to be set up and bound. It only needs to specify a port
+        and can receive connection from any IP address
+
+Q3:     using the SO_REUSEADDR flag with socket.setsockopt()
+        https://docs.python.org/3/library/socket.html#example last example explains this
+
+Q4:     incoming connection's IP Address is given by the 2nd value 
+        of the touple given by  socket.socket.accept(). We can also get
+        the port but this is already known implicity from binding the socket
+
+Q5:     for the client, after sending an HTTP request recv() returns the servers
+        response to the HTTP request. (This question is worded slightly strange)
+
+Q6:
